@@ -6,4 +6,6 @@
 
 (enable-console-print!)
 
+(def woot 31337)
+
 (println "Hello world!")

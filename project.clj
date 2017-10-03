@@ -11,6 +11,7 @@
   :clean-targets ["out" "release"]
   :target-path "target"
   :cljsbuild {:builds {:test {:source-paths ["src" "test"]
+                              :notify-command ["node" "out/test/runner.js"]
                               :compiler {:output-to "out/test/runner.js"
                                          :target :nodejs
                                          :main cljs-testing.tests-runner
