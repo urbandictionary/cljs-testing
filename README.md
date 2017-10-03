@@ -1,10 +1,7 @@
 # cljs-testing
 
-FIXME: Write a one-line description of your library/project.
-
-## Overview
-
-FIXME: Write a paragraph about the library/project and highlight its goals.
+## Run tests
+`lein cljsbuild test` and `lein cljsbuild auto test`
 
 ## Setup
 
